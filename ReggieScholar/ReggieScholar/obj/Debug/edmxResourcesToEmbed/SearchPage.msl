@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ReggieRepoModelStoreContainer" CdmEntityContainer="ReggieRepoEntities">
+    <EntitySetMapping Name="FILES">
+      <EntityTypeMapping TypeName="ReggieRepoModel.FILE">
+        <MappingFragment StoreEntitySet="FILES">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="Project_ID" ColumnName="Project_ID" />
+          <ScalarProperty Name="Project_Name" ColumnName="Project_Name" />
+          <ScalarProperty Name="Course_ID" ColumnName="Course_ID" />
+          <ScalarProperty Name="Keyword1" ColumnName="Keyword1" />
+          <ScalarProperty Name="Keyword2" ColumnName="Keyword2" />
+          <ScalarProperty Name="Keyword3" ColumnName="Keyword3" />
+          <ScalarProperty Name="Abstract" ColumnName="Abstract" />
+          <ScalarProperty Name="Live_Link" ColumnName="Live_Link" />
+          <ScalarProperty Name="Video_Link" ColumnName="Video_Link" />
+          <ScalarProperty Name="Chair_Name" ColumnName="Chair_Name" />
+          <ScalarProperty Name="Chair_Email" ColumnName="Chair_Email" />
+          <ScalarProperty Name="Comm_Name" ColumnName="Comm_Name" />
+          <ScalarProperty Name="Comm_Email" ColumnName="Comm_Email" />
+          <ScalarProperty Name="Gadvisor_Name" ColumnName="Gadvisor_Name" />
+          <ScalarProperty Name="Gadvisor_Email" ColumnName="Gadvisor_Email" />
+          <ScalarProperty Name="Upload_Date" ColumnName="Upload_Date" />
+          <ScalarProperty Name="Reject_Reason" ColumnName="Reject_Reason" />
+          <ScalarProperty Name="Num_Views" ColumnName="Num_Views" />
+          <ScalarProperty Name="Num_Dloads" ColumnName="Num_Dloads" />
+          <ScalarProperty Name="Pic_File" ColumnName="Pic_File" />
+          <ScalarProperty Name="Proj_Pdf_File" ColumnName="Proj_Pdf_File" />
+          <ScalarProperty Name="Proj_Zip_File" ColumnName="Proj_Zip_File" />
+          <ScalarProperty Name="Pres_Date" ColumnName="Pres_Date" />
+          <ScalarProperty Name="Dislike_Count" ColumnName="Dislike_Count" />
+          <ScalarProperty Name="Like_Count" ColumnName="Like_Count" />
+          <ScalarProperty Name="Approval_Status1" ColumnName="Approval_Status1" />
+          <ScalarProperty Name="Approval_Status2" ColumnName="Approval_Status2" />
+          <ScalarProperty Name="Approval_Status3" ColumnName="Approval_Status3" />
+          <ScalarProperty Name="Reviewer_Comment1" ColumnName="Reviewer_Comment1" />
+          <ScalarProperty Name="Reviewer_Comment2" ColumnName="Reviewer_Comment2" />
+          <ScalarProperty Name="Reviewer_Comment3" ColumnName="Reviewer_Comment3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOGINs">
+      <EntityTypeMapping TypeName="ReggieRepoModel.LOGIN">
+        <MappingFragment StoreEntitySet="LOGIN">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="userpassword" ColumnName="userpassword" />
+          <ScalarProperty Name="User_Type" ColumnName="User_Type" />
+          <ScalarProperty Name="Login_Count" ColumnName="Login_Count" />
+          <ScalarProperty Name="Last_Login" ColumnName="Last_Login" />
+          <ScalarProperty Name="Approve_Status" ColumnName="Approve_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERS">
+      <EntityTypeMapping TypeName="ReggieRepoModel.USER">
+        <MappingFragment StoreEntitySet="USERS">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Security_Question" ColumnName="Security_Question" />
+          <ScalarProperty Name="Security_Answer" ColumnName="Security_Answer" />
+          <ScalarProperty Name="Acct_Reason" ColumnName="Acct_Reason" />
+          <ScalarProperty Name="Semester_Completion" ColumnName="Semester_Completion" />
+          <ScalarProperty Name="Account_Date" ColumnName="Account_Date" />
+          <ScalarProperty Name="Progress_Bar" ColumnName="Progress_Bar" />
+          <ScalarProperty Name="Comment_Box" ColumnName="Comment_Box" />
+          <ScalarProperty Name="Comment_Status" ColumnName="Comment_Status" />
+          <ScalarProperty Name="Reviewer_Comments" ColumnName="Reviewer_Comments" />
+          <ScalarProperty Name="College_Dept" ColumnName="College_Dept" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

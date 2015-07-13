@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ReggieRepoModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ReggieRepoEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="FILES" EntityType="ReggieRepoModel.FILE" />
+    <EntitySet Name="LOGINs" EntityType="ReggieRepoModel.LOGIN" />
+    <EntitySet Name="USERS" EntityType="ReggieRepoModel.USER" />
+  </EntityContainer>
+  <EntityType Name="FILE">
+    <Key>
+      <PropertyRef Name="Project_ID" />
+    </Key>
+    <Property Name="username" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Project_ID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Project_Name" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Course_ID" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Keyword1" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="Keyword2" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="Keyword3" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="Abstract" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Live_Link" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Video_Link" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Chair_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Chair_Email" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Comm_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Comm_Email" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Gadvisor_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Gadvisor_Email" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Upload_Date" Type="DateTime" Precision="3" />
+    <Property Name="Reject_Reason" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Num_Views" Type="Int32" />
+    <Property Name="Num_Dloads" Type="Int32" />
+    <Property Name="Pic_File" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+    <Property Name="Proj_Pdf_File" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+    <Property Name="Proj_Zip_File" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+    <Property Name="Pres_Date" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Dislike_Count" Type="Int32" />
+    <Property Name="Like_Count" Type="Int32" />
+    <Property Name="Approval_Status1" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Approval_Status2" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Approval_Status3" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Reviewer_Comment1" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Reviewer_Comment2" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Reviewer_Comment3" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="LOGIN">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="userpassword" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="User_Type" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="Login_Count" Type="Int32" />
+    <Property Name="Last_Login" Type="DateTime" Precision="3" />
+    <Property Name="Approve_Status" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="First_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Last_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Security_Question" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Security_Answer" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Acct_Reason" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Semester_Completion" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Account_Date" Type="DateTime" Precision="3" />
+    <Property Name="Progress_Bar" Type="Int32" />
+    <Property Name="Comment_Box" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Comment_Status" Type="String" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="Reviewer_Comments" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="College_Dept" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

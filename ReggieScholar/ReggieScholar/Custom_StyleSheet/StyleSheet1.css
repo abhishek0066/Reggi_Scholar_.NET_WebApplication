@@ -1,0 +1,242 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Lora:700italic);
+
+html, body { 
+    max-width: 100%;
+    overflow-x: hidden !important;
+
+    background-color: #fefab5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#researchNameLabel {
+    font-size: 20px;
+    font-weight: 900;
+    color: #8C0000;
+}
+
+.researchNameClass {
+    font-size: 20px;
+}
+
+#researchNamePanel { 
+    text-align:center;
+}
+
+/*body {
+    background-image: url(/images/GeorgePeabodyLibrary.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;   
+}*/
+ 
+/*sets space between profile picture and information*/ 
+ .panelaccount{
+    margin-top: 20%;
+}
+
+.navbar-nav > li > a {
+    padding-top:3px !important; 
+    padding-bottom:3px !important;
+}
+.navbar {
+    min-height:30px !important;    
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/*sets header margin*/ 
+#header {
+margin-top:1%
+}
+
+.googleFont{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 70px;
+    color: #223144;
+    font-weight: 600;
+}
+
+/*sets background color of presentation date well*/ 
+#welldiv {
+    background: rgb(120, 228, 94);
+    margin-top:2%;
+}
+
+.table th, .table td { 
+     border: none !important; 
+ }
+
+.form-control {
+font-size:20px !important;
+}
+
+
+.boxcolorstyle {
+height: 100%; border-color:#117ED2; border-width:3px;
+}
+
+ .tab-content  
+    {
+    overflow:hidden;
+    }
+
+:required {
+font-weight:bolder;
+color:red;
+
+
+}
+
+/*Profile Page header*/
+.page-header {
+margin-top:-1%;
+margin-bottom:-.05%;
+}
+
+/*header image spacing*/
+#headerImage {
+margin-top:1%;
+}
+
+/*about us page body content*/
+.aboutUsBody {
+line-height:290%;
+text-align:justify;
+}
+
+/*Search Profile_ReviewerProject like unlike button*/
+#likeUnlikeId {
+margin-top:10%}
+
+/*Submit Button on Profile Page for Reviewer*/
+#submitCommentButtonID {
+margin-top:120%;
+}
+
+/*Add margin to panels*/
+#changePanel {
+
+    margin: 0 auto;
+    padding: 1em 2em 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+    
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#changePanel2 {
+
+    margin: 0 auto;
+    padding: 1em 2em 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+    
+    margin-bottom: 30px;
+    
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.changePanel2 {
+
+    margin: 0 auto;
+    padding: 1em 2em 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+    
+    margin-bottom: 30px;
+    
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+
+/*Footer Stylesheet*/
+.footerMsg { 
+    text-align: center;
+}
+
+#footer {
+    color: white;
+    font-weight: 900;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 1.0);
+    background-image: -webkit-linear-gradient(top, #C50100 0%, #880000 100%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/*Progress bar icons color*/
+.progressColor {
+    color: #5CB85C;
+}
+
+/*font size of the update lable in UserProfile Page*/
+
+#updateInformationLabelID {
+font-size:20px !important;
+}
+
+/*scroll bar form abstract input SearchProfile_Reviewer Project*/
+
+.abstractScroll{
+  height:100px;
+  overflow-y:scroll;
+  width:100%;
+}
+
+.searchTitle {
+    text-align: center;
+}
+
+#researchNameInput {
+    text-align: center;
+}
+
+.glyphHash { 
+    font-size: 25px;
+}
+
+.resultDIV {
+    margin-top: 30px;
+    text-align: center;
+    margin: 0 auto !important;    
+}
+
+#resultCountColor { 
+    color: red;
+    font-weight: 900;
+}
+
+#resultOutput { 
+    margin: 0 auto !important;    
+}
+
+.centerImageUserProfile {
+    text-align: center;
+    
+    
+}
+
+.userProfileImageBorder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8B0000;
+}

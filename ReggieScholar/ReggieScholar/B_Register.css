@@ -1,0 +1,146 @@
+﻿body {
+    background-image: url(/images/GeorgePeabodyLibrary.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.panelDiv {
+    margin: 0 auto;
+    padding: 1em 2em 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: #fefab5;
+    
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.marginTop {
+    margin-top: 20px;
+}
+
+.glyphicon {
+    font-size: 20px;
+}
+
+.glyphSizEmail {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.glyphSize {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.keywordGlyph {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.customLabel {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.inputForm {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 40px;
+    background-color: white;
+}
+
+.inputFormKeyword {
+    font-size: 25px;
+    font-weight: 300;
+    padding: 40px;
+    background-color: white;
+}
+
+p.panel-step {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #959ba4;
+    font-weight: 900;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+p.panel-title {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 70px;
+    color: #223144;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    height: 5px;
+    background-color: #C30000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.customRadioButton {
+    font-size: 30px !important;
+}
+
+a:target {
+    font-weight: 900 !important;
+    color: #c30000 !important;
+}
+
+.dropdownCustom {
+    font-size: 30px;
+    left: 1em;
+    right: 1em;
+}
+
+.btn-custom {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  background-color: hsl(0, 100%, 21%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e50000", endColorstr="#6b0000");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e50000), to(#6b0000));
+  background-image: -moz-linear-gradient(top, #e50000, #6b0000);
+  background-image: -ms-linear-gradient(top, #e50000, #6b0000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e50000), color-stop(100%, #6b0000));
+  background-image: -webkit-linear-gradient(top, #e50000, #6b0000);
+  background-image: -o-linear-gradient(top, #e50000, #6b0000);
+  background-image: linear-gradient(#e50000, #6b0000);
+  border-color: #6b0000 #6b0000 hsl(0, 100%, 15%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.39);
+  -webkit-font-smoothing: antialiased;
+}
+
+.validationCustom {
+    font-size: 25px;
+    text-align: center;
+}
+
+.customFileInput {
+    font-size: 30px !important;
+    padding: 15px;
+}
+
+.imageCenter {
+    margin: 0 auto;
+    text-align: center;
+}

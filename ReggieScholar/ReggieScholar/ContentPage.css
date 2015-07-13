@@ -1,0 +1,83 @@
+﻿body {
+    /*background-image: url('../images/back.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;*/
+
+
+
+    background-color: #edf0f5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*sets space between profile picture and information*/ 
+ .panelaccount{
+    margin-top: 20%;
+}
+
+
+
+/*sets header margin*/ 
+#header {
+margin-top:1%
+}
+
+/*sets background color of presentation date well*/ 
+#welldiv {
+    background: rgb(120, 228, 94);
+    margin-top:2%;
+}
+
+.table th, .table td { 
+     border: none !important; 
+ }
+
+.form-control {
+font-size:20px !important;
+}
+
+.boxcolorstyle {
+height: 100%; border-color:#117ED2; border-width:3px;
+}
+
+ .tab-content  
+    {
+    overflow:hidden;
+    }
+
+:required {
+font-weight:bolder;
+color:red;
+
+
+}
+
+/*Profile Page header*/
+.page-header {
+margin-top:-1%;
+margin-bottom:-.05%;
+}
+
+/*header image spacing*/
+#headerImage {
+margin-top:1%;
+}
+
+/*about us page body content*/
+.aboutUsBody {
+line-height:345%;
+text-align:justify;
+}
+
+/*Search Profile_ReviewerProject like unlike button*/
+#likeUnlikeId {
+margin-top:10%}
+
+
+#submitCommentButtonID {
+margin-top:120%;
+}

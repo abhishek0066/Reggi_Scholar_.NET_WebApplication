@@ -1,0 +1,129 @@
+﻿body {
+    overflow:hidden;    /* Hide scrollbars */
+    background-image: url(/images/GeorgePeabodyLibrary.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#logo {
+    position: relative;
+    top: -10px;
+}
+
+#loginControls {
+    position: relative;
+    bottom: -120px;
+}
+
+#accessDenied {
+    display: none;
+    position: relative;
+    bottom: -120px;
+}
+
+img#accessDeniedImg {
+    width: 50%;
+}
+
+#accessDeniedMessage {
+    width: 60%;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 1.0);
+    background-image: -webkit-linear-gradient(top, #C50100 0%, #880000 100%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+
+}
+
+#newsFeed {
+    position: relative;
+    bottom: -120px;
+}
+
+.customInput {
+    text-align: center;
+    border-color: #117ED2;
+    border-width: 3px;
+    font-size: 30px;
+    padding: 30px;
+    color: #A9917F;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.loginButton {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px 30px;
+    color: white;
+    /*background-image: -webkit-linear-gradient(top, #C50100 0%, #880000 100%);*/
+    /*background-image: -webkit-linear-gradient(top, #6a88b6 0%, #385B95 100%);*/
+    background-image: -webkit-linear-gradient(top, #61BEF2 0%, #117ED2 100%);
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.loginButton:hover {
+    color: #FFD600;
+}
+
+.registerButton {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px 20px;
+    color: white;
+    /*background-image: -webkit-linear-gradient(top, #C50100 0%, #880000 100%);*/
+    background-image: -webkit-linear-gradient(top, #61BEF2 0%, #117ED2 100%);
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.registerButton:hover {
+    color: #FFD600;
+}
+
+.backButton {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px 20px;
+    color: white;
+    background-image: -webkit-linear-gradient(top, #61BEF2 0%, #117ED2 100%);
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.backButton:hover {
+    color: #FFD600;
+}
+
+.footerMsg {
+    position: relative;
+    bottom: -120px;
+    text-align: center;
+}
+
+#footer {
+    color: white;
+    font-weight: 900;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 1.0);
+    background-image: -webkit-linear-gradient(top, #C50100 0%, #880000 100%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+

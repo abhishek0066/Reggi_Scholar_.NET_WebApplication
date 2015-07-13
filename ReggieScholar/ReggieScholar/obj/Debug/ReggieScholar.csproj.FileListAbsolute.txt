@@ -1,0 +1,25 @@
+H:\WebAndConsoleApps\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\bin\ReggieScholar.dll
+H:\WebAndConsoleApps\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\bin\ReggieScholar.pdb
+H:\WebAndConsoleApps\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.csprojResolveAssemblyReference.cache
+H:\WebAndConsoleApps\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.dll
+H:\WebAndConsoleApps\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.pdb
+C:\Users\abhishek0066\Documents\Visual Studio 2013\Projects\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\bin\ReggieScholar.dll.config
+C:\Users\abhishek0066\Documents\Visual Studio 2013\Projects\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\bin\ReggieScholar.dll
+C:\Users\abhishek0066\Documents\Visual Studio 2013\Projects\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\bin\ReggieScholar.pdb
+C:\Users\abhishek0066\Documents\Visual Studio 2013\Projects\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.dll
+C:\Users\abhishek0066\Documents\Visual Studio 2013\Projects\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.pdb
+C:\Users\abhishek0066\Documents\Visual Studio 2013\Projects\15-04-24 Thanesh UserProfileConnected\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.csprojResolveAssemblyReference.cache
+C:\a_placeholder\03 Code\ReggieScholar\ReggieScholar\bin\ReggieScholar.dll
+C:\a_placeholder\03 Code\ReggieScholar\ReggieScholar\bin\ReggieScholar.pdb
+C:\a_placeholder\03 Code\ReggieScholar\ReggieScholar\bin\EntityFramework.dll
+C:\a_placeholder\03 Code\ReggieScholar\ReggieScholar\bin\EntityFramework.xml
+C:\a_placeholder\03 Code\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.dll
+C:\a_placeholder\03 Code\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.pdb
+C:\Users\abhishek0066\Desktop\15-04-28 1500 Thanesh PresentationReady\ReggieScholar\ReggieScholar\bin\ReggieScholar.dll.config
+C:\Users\abhishek0066\Desktop\15-04-28 1500 Thanesh PresentationReady\ReggieScholar\ReggieScholar\bin\ReggieScholar.dll
+C:\Users\abhishek0066\Desktop\15-04-28 1500 Thanesh PresentationReady\ReggieScholar\ReggieScholar\bin\ReggieScholar.pdb
+C:\Users\abhishek0066\Desktop\15-04-28 1500 Thanesh PresentationReady\ReggieScholar\ReggieScholar\bin\EntityFramework.dll
+C:\Users\abhishek0066\Desktop\15-04-28 1500 Thanesh PresentationReady\ReggieScholar\ReggieScholar\bin\EntityFramework.xml
+C:\Users\abhishek0066\Desktop\15-04-28 1500 Thanesh PresentationReady\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.csprojResolveAssemblyReference.cache
+C:\Users\abhishek0066\Desktop\15-04-28 1500 Thanesh PresentationReady\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.dll
+C:\Users\abhishek0066\Desktop\15-04-28 1500 Thanesh PresentationReady\ReggieScholar\ReggieScholar\obj\Debug\ReggieScholar.pdb

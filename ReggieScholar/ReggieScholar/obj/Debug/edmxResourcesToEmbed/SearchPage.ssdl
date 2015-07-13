@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ReggieRepoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ReggieRepoModelStoreContainer">
+    <EntitySet Name="FILES" EntityType="ReggieRepoModel.Store.FILES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LOGIN" EntityType="ReggieRepoModel.Store.LOGIN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="USERS" EntityType="ReggieRepoModel.Store.USERS" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="FILES">
+    <Key>
+      <PropertyRef Name="Project_ID" />
+    </Key>
+    <Property Name="username" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Project_ID" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Project_Name" Type="varchar(max)" Nullable="false" />
+    <Property Name="Course_ID" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Keyword1" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="Keyword2" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="Keyword3" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="Abstract" Type="varchar(max)" Nullable="false" />
+    <Property Name="Live_Link" Type="varchar(max)" />
+    <Property Name="Video_Link" Type="varchar(max)" />
+    <Property Name="Chair_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Chair_Email" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Comm_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Comm_Email" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Gadvisor_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Gadvisor_Email" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Upload_Date" Type="datetime" />
+    <Property Name="Reject_Reason" Type="varchar(max)" />
+    <Property Name="Num_Views" Type="int" />
+    <Property Name="Num_Dloads" Type="int" />
+    <Property Name="Pic_File" Type="varchar" MaxLength="400" />
+    <Property Name="Proj_Pdf_File" Type="varchar" MaxLength="400" />
+    <Property Name="Proj_Zip_File" Type="varchar" MaxLength="400" />
+    <Property Name="Pres_Date" Type="varchar" MaxLength="100" />
+    <Property Name="Dislike_Count" Type="int" />
+    <Property Name="Like_Count" Type="int" />
+    <Property Name="Approval_Status1" Type="varchar" MaxLength="50" />
+    <Property Name="Approval_Status2" Type="varchar" MaxLength="50" />
+    <Property Name="Approval_Status3" Type="varchar" MaxLength="50" />
+    <Property Name="Reviewer_Comment1" Type="varchar(max)" />
+    <Property Name="Reviewer_Comment2" Type="varchar(max)" />
+    <Property Name="Reviewer_Comment3" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="LOGIN">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="userpassword" Type="varchar" MaxLength="200" />
+    <Property Name="User_Type" Type="varchar" MaxLength="1" />
+    <Property Name="Login_Count" Type="int" />
+    <Property Name="Last_Login" Type="datetime" />
+    <Property Name="Approve_Status" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="First_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Last_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Security_Question" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Security_Answer" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Acct_Reason" Type="varchar" MaxLength="10" />
+    <Property Name="Semester_Completion" Type="varchar" MaxLength="15" />
+    <Property Name="Account_Date" Type="datetime" />
+    <Property Name="Progress_Bar" Type="int" />
+    <Property Name="Comment_Box" Type="varchar(max)" />
+    <Property Name="Comment_Status" Type="varchar" MaxLength="4" />
+    <Property Name="Reviewer_Comments" Type="varchar(max)" />
+    <Property Name="College_Dept" Type="varchar" MaxLength="50" />
+  </EntityType>
+</Schema>
